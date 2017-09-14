@@ -39,7 +39,7 @@ gem 'jquery-rails'
 
 gem 'ratyrate'
 gem 'yarn'
-
+gem 'font-awesome-rails'
 
 
 group :development, :test do
@@ -48,7 +48,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  gem 'font-awesome-rails'
+
 end
 
 group :production do
