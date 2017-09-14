@@ -38,6 +38,7 @@ gem 'pickadate-rails', '~> 3.5', '>= 3.5.6.0'
 gem 'jquery-rails'
 
 gem 'ratyrate'
+gem 'yarn'
 
 
 
