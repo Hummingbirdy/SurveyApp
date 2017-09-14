@@ -21,6 +21,16 @@
     <%= @survey.os %>
   </p>
 
+  <p>
+    <strong>Graduation Date:</strong>
+    <%= @survey.graduationDate %>
+  </p>
+
+  <p>
+    <strong>Excited :</strong>
+    <%= @survey.level %>
+  </p>
+
   <%= link_to 'Edit', edit_survey_path(@survey) %> |
-  <%= link_to 'Back', surveys_path %>
+  <%= link_to 'View All', surveys_path %>
 </div>

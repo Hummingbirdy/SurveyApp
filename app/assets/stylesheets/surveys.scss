@@ -1,3 +1,27 @@
 // Place all the styles related to the Surveys controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1{
+  color: #d3c4be !important;
+  text-align: center !important;
+}
+label{
+  font-weight: bold;
+}
+
+.createFormWidth{
+  width: 700px !important;
+  background-color: #F4eee1;
+}
+.dateStyle {
+  width: 175px !important;
+}
+.inputStyle{
+  height: 37px;
+  width: 300px !important;
+}
+.btn-custom{
+  background-color: #999999 !important;
+  border-color: black !important;
+}
+
